@@ -1,7 +1,7 @@
 # Load libraries
 library(randomForest)
 
-# Load the train dataset
+# Load the train dataset111
 train_data <- read.csv("train.csv",stringsAsFactors = FALSE,na.strings = c("","NA"))
 View(train_data)
 str(train_data)
