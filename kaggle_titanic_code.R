@@ -4,7 +4,7 @@ library(randomForest)
 # Load the train dataset111
 train_data <- read.csv("train.csv",stringsAsFactors = FALSE,na.strings = c("","NA"))
 View(train_data)
-str(train_data)
+summary(train_data)
 
 # Load the test dataset
 test_data <- read.csv("test.csv",stringsAsFactors = FALSE,na.strings = c("","NA"))
